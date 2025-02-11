@@ -1,0 +1,160 @@
+body {
+    font-family: "Work Sans", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background-color: #ffffff;
+
+}
+
+.logo {
+    width: 150;
+    height: 64;
+    top: 80px;
+    left: 645px;
+    border-radius: 8px;
+    border-width: 1px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    margin: 84px 0px 68px;
+  
+}
+.Platform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:normal;
+    width: 593px;
+    height: 48px;
+    margin: 0px;
+    size: 40px;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 0%;
+
+}
+.login {
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:normal;
+    width: 400px;
+    height: 32px;
+    margin: 48px 0 32px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    width: 400px;
+
+}
+input {
+    margin-bottom: 32px;
+    display: block;
+    width: 400px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-color: #AFB1B6;
+}
+.button {
+    font-family: "Work Sans", serif;
+    width: 400px;
+    height: 48px;
+    gap: 6px;
+    border-radius: 16px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+}
+.button:hover {
+    background-color: rgb(22, 22, 22);
+}
+.parahraf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 400;
+    height: 24;
+    margin-top: 24px;
+}
+.parahraf a {
+    color: black;
+    text-decoration: underline;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: Auto;
+
+}
+.parahraf a:hover {
+text-decoration: none;
+}
+label {
+    color: #61646B;
+    margin: 0 0 8px 0;
+    width: 400px;
+    height: 24px;
+    display: block;
+}
+.content {
+    width: 400;
+height: 505;
+top: 208px;
+left: 520px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.conteiner {
+    width: 1440;
+height: 1024;
+top: 80px;
+left: 80px;
+
+}
+.emailPass {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+}
+input#email {
+margin-bottom: 24px;
+
+}
